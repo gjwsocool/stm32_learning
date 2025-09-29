@@ -1,0 +1,209 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 2473262301@qq.com,  , LIC=R4HV2-9KZQ4-YDYK5-GM2AV-8LH2D-Z4CKD
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.28.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.31.18.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+C:\Users\24732\Music\A__stm32_git\增加了：小车相关的pwm\Tarena.uvprojx
+Project File Date:  09/28/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\APP\X6818\msg.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\APP\EMOTORPWM\emotor.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+User\main.c(19): warning:  #177-D: variable "buf"  was declared but never referenced
+  static u8 buf[BUF_LEN];
+User\main.c(21): warning:  #177-D: variable "pcmd"  was declared but never referenced
+  static cmd_t *pcmd;
+User\main.c: 4 warnings, 0 errors
+compiling stm32f10x_exti.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling stm32f10x_dma.c...
+compiling at24c02.c...
+compiling iic.c...
+compiling init.c...
+.\APP\EMOTORPWM\emotor.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+APP\INIT\init.c: 1 warning, 0 errors
+compiling cmd.c...
+assembling startup_stm32f10x_hd.s...
+compiling led.c...
+compiling exti.c...
+compiling beep.c...
+compiling interrupt.c...
+compiling stm32f10x_it.c...
+compiling systick.c...
+compiling key.c...
+compiling uart.c...
+compiling stm32f10x_rcc.c...
+compiling ds18b20.c...
+compiling uart3.c...
+compiling timer4.c...
+.\APP\X6818\msg.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif
+APP\TIM\timer4.c: 1 warning, 0 errors
+compiling esp8266.c...
+compiling dma.c...
+compiling emotor.c...
+APP\EMOTORPWM\emotor.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+APP\EMOTORPWM\emotor.c(95): warning:  #1-D: last line of file ends without a newline
+  }
+APP\EMOTORPWM\emotor.c: 2 warnings, 0 errors
+compiling croutine.c...
+compiling event_groups.c...
+APP\FreeRTOS\event_groups.c(215): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( ( uxBitsToWaitFor & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+APP\FreeRTOS\event_groups.c(216): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( uxBitsToWaitFor != 0 );
+APP\FreeRTOS\event_groups.c(219): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( !( ( xTaskGetSchedulerState() == taskSCHEDULER_SUSPENDED ) && ( xTicksToWait != 0 ) ) );
+APP\FreeRTOS\event_groups.c(333): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( xEventGroup );
+APP\FreeRTOS\event_groups.c(334): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( ( uxBitsToWaitFor & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+APP\FreeRTOS\event_groups.c(335): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( uxBitsToWaitFor != 0 );
+APP\FreeRTOS\event_groups.c(338): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( !( ( xTaskGetSchedulerState() == taskSCHEDULER_SUSPENDED ) && ( xTicksToWait != 0 ) ) );
+APP\FreeRTOS\event_groups.c(479): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( xEventGroup );
+APP\FreeRTOS\event_groups.c(480): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( ( uxBitsToClear & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+APP\FreeRTOS\event_groups.c(541): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( xEventGroup );
+APP\FreeRTOS\event_groups.c(542): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( ( uxBitsToSet & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+APP\FreeRTOS\event_groups.c(637): warning:  #223-D: function "printf" declared implicitly
+  			configASSERT( pxTasksWaitingForBits->xListEnd.pxNext != ( ListItem_t * ) &( pxTasksWaitingForBits->xListEnd ) );
+APP\FreeRTOS\event_groups.c: 12 warnings, 0 errors
+compiling list.c...
+compiling timers.c...
+compiling heap_4.c...
+APP\FreeRTOS\portable\MemMang\heap_4.c(191): warning:  #223-D: function "printf" declared implicitly
+  					configASSERT( ( xWantedSize & portBYTE_ALIGNMENT_MASK ) == 0 );
+APP\FreeRTOS\portable\MemMang\heap_4.c(236): warning:  #223-D: function "printf" declared implicitly
+  						configASSERT( ( ( ( size_t ) pxNewBlockLink ) & portBYTE_ALIGNMENT_MASK ) == 0 );
+APP\FreeRTOS\portable\MemMang\heap_4.c(300): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( ( ( ( size_t ) pvReturn ) & ( size_t ) portBYTE_ALIGNMENT_MASK ) == 0 );
+APP\FreeRTOS\portable\MemMang\heap_4.c(320): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( ( pxLink->xBlockSize & xBlockAllocatedBit ) != 0 );
+APP\FreeRTOS\portable\MemMang\heap_4.c(321): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( pxLink->pxNextFreeBlock == NULL );
+APP\FreeRTOS\portable\MemMang\heap_4.c: 5 warnings, 0 errors
+compiling queue.c...
+APP\FreeRTOS\queue.c(283): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue );
+APP\FreeRTOS\queue.c(392): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( uxQueueLength > ( UBaseType_t ) 0 );
+APP\FreeRTOS\queue.c(729): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue );
+APP\FreeRTOS\queue.c(730): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( !( ( pvItemToQueue == NULL ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) ) );
+APP\FreeRTOS\queue.c(731): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( !( ( xCopyPosition == queueOVERWRITE ) && ( pxQueue->uxLength != 1 ) ) );
+APP\FreeRTOS\queue.c(734): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( !( ( xTaskGetSchedulerState() == taskSCHEDULER_SUSPENDED ) && ( xTicksToWait != 0 ) ) );
+APP\FreeRTOS\queue.c(927): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue );
+APP\FreeRTOS\queue.c(928): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( !( ( pvItemToQueue == NULL ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) ) );
+APP\FreeRTOS\queue.c(929): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( !( ( xCopyPosition == queueOVERWRITE ) && ( pxQueue->uxLength != 1 ) ) );
+APP\FreeRTOS\queue.c(1084): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue );
+APP\FreeRTOS\queue.c(1088): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue->uxItemSize == 0 );
+APP\FreeRTOS\queue.c(1093): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( !( ( pxQueue->uxQueueType == queueQUEUE_IS_MUTEX ) && ( pxQueue->pxMutexHolder != NULL ) ) );
+APP\FreeRTOS\queue.c(1244): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue );
+APP\FreeRTOS\queue.c(1245): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( !( ( pvBuffer == NULL ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) ) );
+APP\FreeRTOS\queue.c(1248): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( !( ( xTaskGetSchedulerState() == taskSCHEDULER_SUSPENDED ) && ( xTicksToWait != 0 ) ) );
+APP\FreeRTOS\queue.c(1440): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue );
+APP\FreeRTOS\queue.c(1441): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( !( ( pvBuffer == NULL ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) ) );
+APP\FreeRTOS\queue.c(1532): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue );
+APP\FreeRTOS\queue.c(1533): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( !( ( pvBuffer == NULL ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) ) );
+APP\FreeRTOS\queue.c(1534): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue->uxItemSize != 0 ); /* Can't peek a semaphore. */
+APP\FreeRTOS\queue.c(1583): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( xQueue );
+APP\FreeRTOS\queue.c(1601): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue );
+APP\FreeRTOS\queue.c(1617): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( xQueue );
+APP\FreeRTOS\queue.c(1629): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( pxQueue );
+APP\FreeRTOS\queue.c(1939): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( xQueue );
+APP\FreeRTOS\queue.c(1978): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( xQueue );
+APP\FreeRTOS\queue.c: 26 warnings, 0 errors
+compiling tasks.c...
+compiling port.c...
+APP\FreeRTOS\portable\RVDS\ARM_CM3\port.c(244): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( uxCriticalNesting == ~0UL );
+APP\FreeRTOS\portable\RVDS\ARM_CM3\port.c(362): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( uxCriticalNesting == 1000UL );
+APP\FreeRTOS\portable\RVDS\ARM_CM3\port.c(378): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( ( portNVIC_INT_CTRL_REG & portVECTACTIVE_MASK ) == 0 );
+APP\FreeRTOS\portable\RVDS\ARM_CM3\port.c(385): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( uxCriticalNesting );
+APP\FreeRTOS\portable\RVDS\ARM_CM3\port.c(680): warning:  #223-D: function "printf" declared implicitly
+  			configASSERT( ucCurrentPriority >= ucMaxSysCallPriority );
+APP\FreeRTOS\portable\RVDS\ARM_CM3\port.c(696): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( ( portAIRCR_REG & portPRIORITY_GROUP_MASK ) <= ulMaxPRIGROUPValue );
+APP\FreeRTOS\portable\RVDS\ARM_CM3\port.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=16884 RO-data=336 RW-data=236 ZI-data=46820  
+FromELF: creating hex file...
+".\Obj\Tarena.axf" - 0 Error(s), 57 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\24732\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
